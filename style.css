@@ -123,5 +123,7 @@ background-blend-mode: multiply;;
 }
 .code_length {
     font-size: 18px;
-    color:#9f9f9f
+    color:#9f9f9f;
+    margin-top: 220px;
+    padding-right: 10px;
 }
