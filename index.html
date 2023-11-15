@@ -5,10 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Language Translator</title>
     <script src="https://kit.fontawesome.com/0f8deb59ab.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet"
-  href="https://fonts.googleapis.com/css?family=Font+Name">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+      <div class="wrapper">
+        <div class="text-input">
+          <textarea class="from text" placeholder="Enter text"></textarea>
+          <textarea class="from to" placeholder="Translation" readonly disabled></textarea>
+        </div>
+        <ul class="controls">
+          <li class="row from">
+            <div class="icons">
+              <i class="fas fa-volume-up"></i>
+              <i class="fas fa-copy"></i>
+            </div>
+            <select>
+              <option value="en">English</option>
+              <option value="es">Spanish</option>
+              <option value="it">Italian</option>
+            </select>
+          </li>
+        </ul>
+      </div>
+    </div>
 </body>
 </html>
