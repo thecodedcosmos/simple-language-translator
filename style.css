@@ -125,5 +125,6 @@ background-blend-mode: multiply;;
     font-size: 18px;
     color:#9f9f9f;
     margin-top: 220px;
-    padding-right: 10px;
+    padding-left: 250px;
+    position: absolute;
 }
