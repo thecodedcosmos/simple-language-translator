@@ -1,6 +1,7 @@
 const fromText = document.querySelector(".from-text"),
 toText = document.querySelector(".to-text"),
 selectTag = document.querySelectorAll("select"),
+exchangeIcon = document.querySelector(".exchange"),
 translateBtn = document.querySelector("button");
 
 selectTag.forEach((tag, id) => {
@@ -14,6 +15,12 @@ selectTag.forEach((tag, id) => {
     let option = `<option value="${country_code}" ${selected}>${countries[country_code]}</option>`;
     tag.insertAdjacentHTML("beforeend", option);
     }
+});
+
+exchangeIcon.addEventListener("click", () => {
+    let tempText = fromText.value;
+    fromText.value = toText.value;
+    toText.value = tempText;
 });
 
 translateBtn.addEventListener("click", () => {
