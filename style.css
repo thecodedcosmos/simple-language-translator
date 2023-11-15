@@ -121,3 +121,7 @@ background-blend-mode: multiply;;
 		transparent
 	);
 }
+.code_length {
+    font-size: 18px;
+    color:#9f9f9f
+}
