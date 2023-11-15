@@ -39,6 +39,8 @@ translateBtn.addEventListener("click", () => {
 
 icons.forEach(icon => {
     icon.addEventListener("click", ({target}) => {
-        console.log(target)
+        if(target.classlist.contains("fa-copy")) {
+            if()
+        }
     });
 })
