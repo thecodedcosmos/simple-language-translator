@@ -6,3 +6,25 @@
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;;
 }
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background:
+	linear-gradient(
+		cyan,
+		transparent
+	),
+	linear-gradient(
+		-45deg,
+		magenta,
+		transparent
+	),
+	linear-gradient(
+		45deg,
+		yellow,
+		transparent
+	);
+background-blend-mode: multiply;;
+}
