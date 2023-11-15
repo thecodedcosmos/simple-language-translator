@@ -40,7 +40,13 @@ translateBtn.addEventListener("click", () => {
 icons.forEach(icon => {
     icon.addEventListener("click", ({target}) => {
         if(target.classlist.contains("fa-copy")) {
-            if()
+            if(target.id == "from") {
+                navigator.clipboard.writeText(fromText.value);
+            } else {
+                navigator.clipboard.writeText(toText.value);
+            }
+        } else {
+            console.log("Speech icon clicked")
         }
     });
 })
