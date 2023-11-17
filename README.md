@@ -10,4 +10,4 @@
 
 # This project is licensed as an open-source project. 
 
-# This project wa smade as practice and submission for school. 
+# This project was made as practice and submission for school. 
