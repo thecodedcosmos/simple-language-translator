@@ -18,7 +18,7 @@ selectTag.forEach((tag, id) => {
     }
 });
 
-exchangeIcon.addEventListener("click", () => {
+exchangeIcon.addEventListener("dblclick", () => {
     let tempText = fromText.value;
     tempLang = selectTag[0].value;
     fromText.value = toText.value;
