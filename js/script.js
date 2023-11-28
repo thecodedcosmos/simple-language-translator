@@ -63,5 +63,5 @@ icons.forEach(icon => {
 })
 
 fromText.addEventListener('keyup', function() {
-    countValue.innerHTML = `${fromText.value.length}/50`;
+    countValue.innerHTML = `${fromText.value.length}/5000`;
 })
